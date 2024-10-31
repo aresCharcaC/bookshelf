@@ -50,10 +50,10 @@ fun SearchBar(
         modifier = modifier
             .fillMaxWidth()
             .padding(16.dp),
-        label = { Text("Search books") },
+        label = { Text("Buscar Libros") },
         trailingIcon = {
             Button(onClick = { onSearch(text) }) {
-                Text("Search")
+                Text("Buscar")
             }
         }
     )
